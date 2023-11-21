@@ -713,19 +713,20 @@ body{
     text-align: left;
 }
 
-.menu-inputs button {
-    background-color: var(--primary);
-    color: var(--secondary);
-    border: none;
-    font-size: 18px;
-    height: 3.5rem;
-    margin-top: 1rem;
-    text-align: center;
-    transition: all .3s ease;
+.menu-inputs .menu-button {
+    background-color: var(--primary) !important;
+    color: var(--secondary) !important;
+    border: none !important;
+    font-size: 18px !important;
+    height: 3.5rem !important;
+    margin-top: 1rem !important;
+    text-align: center !important;
+    transition: all .3s ease !important;
+    cursor: pointer !important;
 }
 
-.menu-inputs button:hover {
-    background-color: #ce832d;
+.menu-inputs .menu-button:hover {
+    background-color: #ce832d !important;
 }
 
 .testimonial-section {
